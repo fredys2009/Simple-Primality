@@ -6,7 +6,14 @@ Instructor: Holtslander
 """
 
 def prime():
-    # Write your code here
+    a = int(input("enter a non negative number"))
+    for i in range(2, a):
+        if a % i == 0:
+            print("Its not prime")
+        else:
+            print("Its prime")
+    else:
+        print("its prime")
 
 
 # You should not need to change any code below this point
@@ -19,4 +26,5 @@ def main():
     print("Thank you for using this primality program!")
 
 if __name__ == "__main__":
+
     main()
