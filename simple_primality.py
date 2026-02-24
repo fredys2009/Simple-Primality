@@ -12,6 +12,8 @@ def prime():
             print("Its not prime")
         else:
             print("Its prime")
+    else:
+    print("its prime")
 
 # You should not need to change any code below this point
 def main():
@@ -25,4 +27,5 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
