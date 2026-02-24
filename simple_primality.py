@@ -4,16 +4,19 @@ Author: <NAME>
 Created: <DATE>
 Instructor: Holtslander
 """
-
+n = 2
 def prime():
     a = int(input("enter a non negative number"))
-    for i in range(2, a):
-        if a % i == 0:
-            print("Its not prime")
+    if a == n:
+        print("its prime")
+    elif a != n:
+        for i in range(2, a):
+            if a % i == 0:
+                print("its not prime")
+                break
         else:
-            print("Its prime")
-    else:
-    print("its prime")
+            print("its prime")
+
 
 # You should not need to change any code below this point
 def main():
@@ -27,5 +30,6 @@ def main():
 if __name__ == "__main__":
 
     main()
+
 
 
